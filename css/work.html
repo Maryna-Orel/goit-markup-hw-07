@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+<form >
+   
+    <label class="form">
+        <span>Имя</span>
+        <input type="text" name="user-name" placeholder="Иван Иванович" autocomplete="off"/>
+    </label>
+
+    <label class="form">
+        <span>Телефон</span>
+        <input type="tel" name="user-phone" placeholder="+38(000)000-00-00" autofocus/>
+    </label>
+
+    <label class="form">
+        <span>Почта</span>
+        <input type="email" name="user-city" placeholder="mail@com.ua" />
+    </label>
+
+    <label class="form">
+        <span>Пароль</span>
+        <input type="password" name="password" minlength="12"  maxlength="15">
+    </label>
+</div>
+
+<label class="form">
+    <span>Оплата</span>
+    <input type="radio" name="payment" value="Visa" checked /> Visa
+    <input type="radio" name="payment" value="Mastercard"/> Mastercard
+</label>
+
+<label class="form">
+    <span>Выберите способ получения товара</span>
+    <input type="checkbox" name="delivery" value="Nova Pochta" /> Новая Почта
+    <input type="checkbox" name="delivery" value="Glovo"/> Курьером 
+    <input type="checkbox" name="delivery" value="Ukrpochta"/> Укр Почта
+</label>
+</form>
+
+<label class="form">
+    <span>Введите ваш возраст</span>
+    <input type="number" name="age" min="18" max="90" />
+</label>
+
+<label class="form">
+    <span>Ваш уровень английского</span>
+    <input type="range" name="english" value="40" step="20" min="0" max="100" />
+</label>
+
+<label class="form">
+    <span>Дата</span>
+    <input type="date" min="2020-01-01" max="2022-01-01" />
+</label>
+
+<label class="form"> 
+  <span> Время</span>
+    <input type="time" />
+</label>
+
+<label class="form">
+    <span>Дата и время</span>
+    <input type="datetime-local" min="2021-00-00T00:00" max="2022-01-01T00:00" />
+
+
+</body>
+</html>
