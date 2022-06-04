@@ -1,0 +1,34 @@
+li {
+  list-style: none;
+  padding: 0;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+h1, h2, h3, h4, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  --active-color: #2196F3;
+  --main-font: #212121;
+  --secondary-text:#757575;
+}
+
+body {
+  color: #212121;
+  background-color: white;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+/*# sourceMappingURL=main.css.map */

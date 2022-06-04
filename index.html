@@ -10,6 +10,7 @@
    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
    <link rel="stylesheet" href="./css/styles.css">
+   <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <!--Шапка-->
 <body>
@@ -51,44 +52,44 @@
          <use href="./image/sprite.svg#icon-close-black"></use></svg>
     
      </button>
-     <strong class="form-title">Оставьте свои данные, мы вам перезвоним</strong>
+     <strong class="form">Оставьте свои данные, мы вам перезвоним</strong>
      <form action="">
-        <label class="form-group">
-           <span class="form-lable">Имя</span>
-           <input class="form-input" type="text" name="user-name"  />
-           <svg class="form-icon" width="12" height="12">
+        <label class="form__group">
+           <span class="form__lable">Имя</span>
+           <input class="form__input" type="text" name="user-name"  />
+           <svg class="form__icon" width="12" height="12">
               <use href="./image/sprite.svg#icon-Preview-modal"></use>
            </svg>
         </label>
         
-        <label class="form-group">
-           <span class="form-lable">Телефон</span>
-           <input class="form-input" type="phone" name="user-phone" /> 
-           <svg class="form-icon"width="13" height="13">
+        <label class="form__group">
+           <span class="form__lable">Телефон</span>
+           <input class="form__input" type="phone" name="user-phone" /> 
+           <svg class="form__icon"width="13" height="13">
               <use href="./image/sprite.svg#icon-Phone-modal"></use>
            </svg>
 
         </label>
        
-        <label class="form-group">
-           <span class="form-lable"> Почта</span>
-           <input class="form-input" type="mail" name="user-mail" />
-         <svg class="form-icon"width="15" height="12">
+        <label class="form__group">
+           <span class="form__lable"> Почта</span>
+           <input class="form__input" type="mail" name="user-mail" />
+         <svg class="form__icon"width="15" height="12">
               <use href="./image/sprite.svg#icon-mail-modal"></use> 
            </svg> 
         </label>
     
-        <label class="comments-group" for="">Комментарий</label>
-       <textarea class="comment" name="comment" id="comment" placeholder="Введите текст"></textarea>
+        <label class="form__comments" for="">Комментарий</label>
+       <textarea class="form__textarea" name="comment" id="comment" placeholder="Введите текст"></textarea>
 
-        <label class="form-policy-group">
+        <label class="form__policy-group">
            <input class="checkbox visually-hidden" type="checkbox" />
            <span class="custom-chekbox">
               <svg class="custom-chekbox-icon"width="12" height="9">
                  <use href="./image/sprite.svg#icon-icon-check"></use>
               </svg>
            </span>
-           <span class="form-policy-text">Соглашаюсь с рассылкой и принимаю <a class="policy-text-link" href=""> Условия договора </a> </span>
+           <span class="form__policy-text">Соглашаюсь с рассылкой и принимаю <a class="form__policy-link" href=""> Условия договора </a> </span>
          </label>
          <button class="btn-submit" type="submit">Отправить</button>
      </form>
@@ -102,54 +103,54 @@
 <section class="feature section box">
    <div class="container">
    <h2 class="visually-hidden">Наши приемущества</h2> <!--Это скрытый заголовок>-->
-   <div class="container-feature">
-   <ul class="container-feature">
+ 
+   <ul class="feature">
 
-      <li class="feature-item"> <svg class="feature-icon" width="65" height="70" >
+      <li class="feature__item"> <svg class="feature__icon" width="65" height="70" >
          <use href="./image/sprite.svg#icon-antenna-1"></use>
       </svg>
-   <h3 class="feature-section"> Внимание к деталям </h3>
+   <h3 class="feature__section"> Внимание к деталям </h3>
          Идейные соображения, а также начало повседневной работы по формированию позиции.
      </li>
 
-      <li class="feature-item"> <svg class="feature-icon" width="67" height="70">
+      <li class="feature__item"> <svg class="feature__icon" width="67" height="70">
          <use href="./image/sprite.svg#icon-clock-1"></use>
       </svg>
-   <h3 class="feature-section"> Пунктуальность</h3>   
+   <h3 class="feature__section"> Пунктуальность</h3>   
       Задача организации, в особенности же рамки и место обучения кадров влечет за собой. </li>
 
-<li class="feature-item"> <svg class="feature-icon" width="70" height="54">
+<li class="feature__item"> <svg class="feature__icon" width="70" height="54">
    <use href="./image/sprite.svg#icon-diagram-1"></use>
 </svg>
-   <h3 class="feature-section"> Планирование</h3>  
+   <h3 class="feature__section"> Планирование</h3>  
       Равным образом консультация с широким активом в значительной степени обуславливает.</li>
 
-      <li class="feature-item"> <svg class="feature-icon" width="70" height="70">
+      <li class="feature__item"> <svg class="feature__icon" width="70" height="70">
          <use href="./image/sprite.svg#icon-astronaut-1"></use>
       </svg>
-   <h3 class="feature-section"> Современные технологии </h3>  
+   <h3 class="feature__section"> Современные технологии </h3>  
       Значимость этих проблем настолько очевидна, что реализация плановых заданий.</li>
       </ul>
-   </div>
+
    </div>
 </section>
 
 <!--Секция 2-->
 <section class="feature section">
    <div class="container">
-   <h2 class="feature about">Чем мы занимаемся</h2> 
-   <ul class="container-img">
-      <li class="img">
-         <p class="position">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
+   <h2 class="about">Чем мы занимаемся</h2> 
+   <ul class="about__list">
+      <li class="about__img">
+         <p class="about__position">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
          <img src="./image/about/img-1.jpg" alt="набор программы на клавиатуре" width="370"/> 
      
       </li>
-      <li class="img">
-         <p class="position">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
+      <li class="about__img">
+         <p class="about__position">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
          <img src="./image/about/img-2.jpg" alt="Приложение для смартфона" width="370"/>
       </li>
-      <li class="img">
-         <p class="position">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
+      <li class="about__img">
+         <p class="about__position">ДИЗАЙНЕРСКИЕ РЕШЕНИЯ</p>
          <img src="./image/about/img-3.jpg" alt="Планшет" width="370"/>
       </li>
    </ul>  
