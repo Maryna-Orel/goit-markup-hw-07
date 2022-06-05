@@ -5,6 +5,35 @@
 @import './components/base' ;
 
 //header
+@import './layout/header' ;        
 
-@import './layout/header';
+//modal
+@import './layout/module';
+
+//hover
+@import './components/hover' ;
+
+//visually-hidden
+@import './utils/visually-hidden';
+
+//features
+@import './components/features' ;
+
+//about
+@import './components/about';
+
+//team
+@import './components/team';
+
+//clients
+@import './components/clients';
+
+//footer
+@import './layout/footer';
+
+//modal-footer
+@import './layout/modal-footer';
+
+//portfolio
+@import './components/portfolio';
 
