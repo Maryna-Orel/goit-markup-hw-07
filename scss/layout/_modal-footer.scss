@@ -1,62 +1,18 @@
-.button-footer{
-    width: 200px;
-    height: 50px;
+ .footer-group{
+ position: relative;
+ }
+        
+ .footer-input{
+ width: 358px;
+ height: 50px;
     
-    margin-left: 12px;
-    background-color: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border-color: #2196F3;
-    outline: transparent;
+ background-color: #2F303A;
     
-    
-    position: relative;
-    
-    
-    }
-    
-    .footer-submit{
-    
-    
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    
-    color: #FFFFFF;
-    
-    margin-right: 29px;
-    
-    }
-    
-    .icon-plain{
-    position: absolute;
-    
-    right: 0;
-    top: 0;
-    
-    transform: translateY(50%);
-    margin-right: 26px;
-    }
-    
-    .footer-group{
-    position: relative;
-    }
-    
-    .footer-input{
-    width: 358px;
-    height: 50px;
-    
-    background-color: #2F303A;
-    
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    padding-left: 16px;
-    
-    }
+ border: 1px solid rgba(255, 255, 255, 0.3);
+ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+ border-radius: 4px;
+ 
+ padding-left: 16px;
+ }
     
     
